@@ -14,13 +14,13 @@ body{
     font-weight: 900;
 }
 .color {
-    color: #59A8F3;
+    color: #598EF3;
 }
 
 #menu.navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
     color: #FFF;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 
@@ -32,13 +32,7 @@ header {
     height: 100%;
 }
 
-/*header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center fixed;
-	background-size: cover;
-	color: #cfcfcf;
-	position: relative;
-	height: 100%;
-}*/
+}
 header p {
 	color: #fff;
 	font-size: 22px;
