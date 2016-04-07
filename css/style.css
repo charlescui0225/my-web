@@ -1,0 +1,53 @@
+ 
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+.text-center {
+    text-align: center;
+}
+#menu a.navbar-brand {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 900;
+}
+.color {
+    color: #59A8F3;
+}
+
+#menu.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+header {
+    background: url(../images/sky.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+/*header {
+	background: url(../img/header-bg.jpg) no-repeat bottom center fixed;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}*/
+header p {
+	color: #fff;
+	font-size: 22px;
+}
+
+.intro-text {
+    position: relative;
+    padding-top: 250px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 200px;
+}
