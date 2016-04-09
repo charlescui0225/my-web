@@ -10,11 +10,16 @@ body{
 #menu a.navbar-brand {
     text-transform: uppercase;
     font-size: 22px;
-    color: #fff;
+    color: #598EF3;
     font-weight: 900;
 }
 .color {
     color: #598EF3;
+}
+.navbar{
+    background-color: #132028;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -24,6 +29,20 @@ body{
     letter-spacing: 1px;
 }
 
+a.fa.fa-angle-down {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 100px;
+    border: 0px solid #E74C3C;
+    transition: all 0.5s;
+    border-radius: 50%;
+    background-color: #598EF3;
+}
+a.fa.fa-angle-down:hover {
+    background: #446FC1;
+    text-decoration:none;
+}
 /*#menu.navbar-default {
     background-color: rgba(248, 248, 248, 0);
     border-color: rgba(231, 231, 231, 0);
@@ -151,6 +170,7 @@ ol.type li a.active {
 }
 ol.type li a:hover {
     color: #D2527F;
+    text-decoration:none;
 }
 
 
@@ -204,7 +224,7 @@ ol.type li a:hover {
     opacity: 1;
 }
 
-.hover-bg .hover-text {
+/*.hover-bg .hover-text {
     position: absolute;
     text-align: center;
     margin: 0 auto;
@@ -215,7 +235,7 @@ ol.type li a:hover {
     width: 100%;
     opacity: 0;
     transition: all 0.5s;
-}
+}*/
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
