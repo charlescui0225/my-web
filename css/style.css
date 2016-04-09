@@ -2,6 +2,7 @@
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin:0;
+    color: #516176 !important;
 }
 
 .text-center {
@@ -13,13 +14,17 @@ body{
     color: #598EF3;
     font-weight: 900;
 }
+#menu {
+    padding: 8px;
+}
+
 .color {
     color: #598EF3;
 }
 .navbar{
     background-color: #132028;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
-
+    background-color:rgba(0,0,0,0.6);
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -27,6 +32,10 @@ body{
     color: #FFF;
     font-size: 14px;
     letter-spacing: 1px;
+}
+
+#menu.navbar-default .navbar-nav > li > a:hover {
+    color: #598EF3;
 }
 
 a.fa.fa-angle-down {
@@ -54,7 +63,7 @@ a.fa.fa-angle-down:hover {
 }*/
 
 header {
-    background: url(../images/sky.jpg) no-repeat bottom center fixed;
+    background: url(../images/02.png) no-repeat bottom center fixed;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -245,4 +254,71 @@ ol.type li a:hover {
 
 img {
     vertical-align: middle;
+}
+
+#about-section {
+    padding: 80px 0;
+    background-color: #eee;
+}
+
+.section-title.center {
+    padding: 30px 0;
+}
+
+.section-title.center hr {
+    height: 1px;
+    width: 60px;
+    text-align: center;
+    position: relative;
+    background: #598EF3;
+    border: 0;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#about-section p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#about-section i {
+    float: left;
+    display: block;
+    margin-right: 15px;
+    color: #598EF3;
+    font-size: 24px;
+}
+
+#team-section {
+    padding: 80px 0;
+}
+
+#team-section .thumbnail {
+    background: transparent;
+    border: 0;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+img.img-circle.team-img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid transparent;
+    transition: all 0.5s;
 }
