@@ -63,7 +63,7 @@ a.fa.fa-angle-down:hover {
 }*/
 
 header {
-    background: url(../images/02.png) no-repeat bottom center fixed;
+    background: url(../images/sky.jpg) no-repeat bottom center fixed;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -322,3 +322,152 @@ img.img-circle.team-img {
     border: 4px solid transparent;
     transition: all 0.5s;
 }
+
+#testimonials-section {
+    background: url(../images/08.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 80px 0;
+}
+#team-section .thumbnail .caption {
+    padding: 9px;
+    color: #516176;
+}
+
+nav#footer {
+    background: #222222;
+    color: #ddd;
+    padding: 30px 0 25px 0;
+}
+
+nav#footer .fnav {
+    vertical-align: middle;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+nav#footer .fnav {
+    vertical-align: middle;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+nav#footer {
+    background: #222222;
+    color: #ddd;
+    padding: 30px 0 25px 0;
+}
+
+
+nav#footer .fnav {
+    vertical-align: middle;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+ul.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#contact-section {
+    padding: 80px 0;
+}
+
+.section-title.center {
+    padding: 30px 0;
+}
+
+#contact-section h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#contact-section form {
+    padding: 30px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#contact-section .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+#contact-section .btn {
+    background: #598EF3;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#footer i.fa {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    padding: 4px 5px;
+    color: #ddd;
+    transition: all 0.5s;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+#footer i.fa:hover {
+    color: #598EF3;
